@@ -59,8 +59,8 @@ const View = () => {
     },
     {
         key: 'column4',
-        name: 'English',
-        fieldName: 'English',
+        name: 'Telugu',
+        fieldName: 'Telugu',
         minWidth: 25,
         maxWidth:70,
         isResizable: true

@@ -59,10 +59,16 @@
 
 
     }
+&__back{
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    color: #396CC5;
+    margin-top: 15px;
+    margin-left:45%;
 
 }
 
-
+}
 .detaillist {
 
     width: 1042px;
@@ -88,4 +94,13 @@
 .root{
     background-color:rgb(205, 202, 202);
     height:100vh;
+}
+
+table,th,td{
+    border:1px solid black;
+    border-collapse: collapse;
+    width:300px;
+    text-align: center;
+    margin-left:460px;
+    margin-top:110px;
 }
