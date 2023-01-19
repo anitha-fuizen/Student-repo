@@ -10,9 +10,7 @@ import Form from './Form'
 function App() {
   return (
     <>
-    <div className='header'>
-    <div className='header__logo' ><img src='https://zelarsoft.com/wp-content/uploads/2021/10/logo.png'></img></div>
-    </div>
+   
    <BrowserRouter>
    <div className='navigation'>
     {/* <Link className='btn' to="View">View</Link> */}

@@ -1,7 +1,4 @@
-#root{
-    background-color: rgb(213, 211, 211);
-   
-}
+
 
 
 .rowthree {
@@ -16,6 +13,7 @@
 }
 
 .form {
+ 
   
  &__main{  
     margin-left: 20%;
@@ -23,24 +21,28 @@
     border-radius: 16px;
     opacity: 1;
     width: 802px;
-    height: 360px;
-    margin-top: 50px;
+    height: 450px;
+    margin-top: 40px;
     background-color:white;
 }
    
 
     &__header {
-        h2 {
+        
+        h3 {
             margin-left: 5%;
-
+            padding-top:20px;
         }
     }
 
     &__footer {
-        margin-top: 20px;
-        margin-left: 300px;
+         margin-top: -30px;
+         margin-left: 650px;
         display: flex;
 
+    }
+    &__body{
+        margin-top:25px;
     }
 
 }
@@ -49,7 +51,7 @@
     margin: 10px;
 
     &__add {
-        margin-left: 79%;
+        margin-left:81%;
         border-radius: 15px;
         background-color: #FFFFFF;
         color: #396CC5;
@@ -80,6 +82,10 @@
     &__logo img {
         height: 60px;
         width: 100px;
-
+       
     }
+}
+.root{
+    background-color:rgb(205, 202, 202);
+    height:100vh;
 }

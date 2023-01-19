@@ -38,7 +38,7 @@ const View = () => {
         name: 'Name',
         fieldName: 'name',
         minWidth:35,
-        maxWidth:80,
+        maxWidth:70,
         isResizable: true
     },
     {
@@ -54,35 +54,43 @@ const View = () => {
         name: 'English',
         fieldName: 'English',
         minWidth: 25,
-        maxWidth:80,
+        maxWidth:70,
         isResizable: true
     },
     {
         key: 'column4',
-        name: 'Hindi',
-        fieldName: 'Hindi',
-        minWidth:25,
-        maxWidth:80,
+        name: 'English',
+        fieldName: 'English',
+        minWidth: 25,
+        maxWidth:70,
         isResizable: true
     },
     {
         key: 'column5',
-        name: 'Science',
-        fieldName: 'Science',
+        name: 'Hindi',
+        fieldName: 'Hindi',
         minWidth:25,
-        maxWidth:100,
+        maxWidth:70,
         isResizable: true
     },
     {
         key: 'column6',
-        name: 'Social',
-        fieldName: 'Social',
+        name: 'Science',
+        fieldName: 'Science',
         minWidth:25,
-        maxWidth:80,
+        maxWidth:70,
         isResizable: true
     },
     {
         key: 'column7',
+        name: 'Social',
+        fieldName: 'Social',
+        minWidth:25,
+        maxWidth:70,
+        isResizable: true
+    },
+    {
+        key: 'column8',
         name: 'Activities',
         fieldName: 'Activities',
         minWidth:25,
@@ -90,7 +98,7 @@ const View = () => {
         isResizable: true
     },
     {
-        key: 'column8',
+        key: 'column9',
         name: 'Totalmarks',
         fieldName: 'Totalmarks',
         minWidth:25,
@@ -98,11 +106,11 @@ const View = () => {
         isResizable: true
     },
     {
-        key: 'column9',
+        key: 'column10',
         name: 'Controls',
         fieldName: 'id',
         minWidth:30,
-        maxWidth:80,
+        maxWidth:70,
         isResizable: true,
         onRender:(item:any)=> (
             item.id &&
@@ -118,6 +126,10 @@ const View = () => {
 ]
     return (
         <>
+        <div className='root'>
+         <div className='header'>
+       <div className='header__logo' ><img src='https://zelarsoft.com/wp-content/uploads/2021/10/logo.png'></img></div>
+       </div>
         <Link className='btn' to="/Create"><PrimaryButton className='btn__add'>Add</PrimaryButton></Link>
         
         <div className='detaillist'>
@@ -129,6 +141,7 @@ const View = () => {
            setKey="set"
          layoutMode={DetailsListLayoutMode.justified}
           /> }
+        </div>
         </div>
         </>
     )

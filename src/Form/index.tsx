@@ -29,11 +29,11 @@ const StudentForm = () => {
   const StudentSchema: yup.SchemaOf<IStudentData> = yup.object().shape({
     name: yup.string().required().min(5),
     rollnumber: yup.number().required(),
-    English: yup.number().required().max(100),
-    Hindi: yup.number().required().max(100),
-    Science: yup.number().required().max(100),
-    Social: yup.number().required().max(100),
-    Activities: yup.number().required().max(100),
+    English: yup.number().max(100),
+    Hindi: yup.number().max(100),
+    Science: yup.number().max(100),
+    Social: yup.number().max(100),
+    Activities: yup.number().max(100),
     Totalmarks: yup.number()
 
   });
@@ -115,11 +115,16 @@ const StudentForm = () => {
 
 
   return (
+    <>
+    <div className='root'>
+    <div className='header'>
+    <div className='header__logo' ><img src='https://zelarsoft.com/wp-content/uploads/2021/10/logo.png'></img></div>
+    </div>
     <div className='form'>
     <div className='form__main'>
       <div className='form__header'>
 
-        <h2>Student Marks</h2><hr></hr>
+        <h3>Student Marks Details</h3><hr></hr>
       </div>
       <FormProvider {...StudentFormMethods}>
         <form onSubmit={StudentFormMethods.handleSubmit(StudentFormSubmit)}>
@@ -145,6 +150,8 @@ const StudentForm = () => {
       </FormProvider>
     </div>
     </div>
+    </div>
+    </>
   )
 }
 
