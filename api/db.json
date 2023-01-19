@@ -1,0 +1,88 @@
+{
+  "data": [
+    {
+      "Totalmarks": 127,
+      "Activities": 12,
+      "Social": 23,
+      "Science": 24,
+      "Hindi": 12,
+      "English": 23,
+      "rollnumber": 12,
+      "name": "anitha",
+      "Toatalmarks": "123",
+      "id": 0.03497430663472434
+    },
+    {
+      "Totalmarks": 230,
+      "Activities": 11,
+      "Social": 21,
+      "Science": 22,
+      "Hindi": 15,
+      "English": 25,
+      "rollnumber": 14,
+      "name": "anjali",
+      "Toatalmarks": "133",
+      "id": 0.6177093040072363
+    },
+    {
+      "Totalmarks": 240,
+      "Activities": 17,
+      "Social": 22,
+      "Science": 26,
+      "Hindi": 19,
+      "English": 28,
+      "rollnumber": 17,
+      "name": "puja y",
+      "Toatalmarks": "137",
+      "id": 0.5240323244264693
+    },
+    {
+      "Totalmarks": 270,
+      "Activities": 45,
+      "Social": 35,
+      "Science": 33,
+      "Hindi": 35,
+      "English": 36,
+      "rollnumber": 15,
+      "name": "srishti",
+      "Toatalmarks": "350",
+      "id": 0.4290308779018486
+    },
+    {
+      "name": "Fayaz",
+      "rollnumber": 10,
+      "English": 60,
+      "Hindi": 50,
+      "Science": 20,
+      "Social": 57,
+      "Activities": 80,
+      "Totalmarks": 320,
+      "Toatalmarks": "280",
+      "id": 0.609528123641486
+    },
+    {
+      "Totalmarks": 310,
+      "Activities": 60,
+      "Social": 78,
+      "Science": 67,
+      "Hindi": 59,
+      "English": 70,
+      "rollnumber": 3,
+      "name": "Harish",
+      "Toatalmarks": "390",
+      "id": 0.8804246836824638
+    },
+    {
+      "Totalmarks": 210,
+      "Activities": 50,
+      "Social": 60,
+      "Science": 70,
+      "Hindi": 80,
+      "English": 90,
+      "rollnumber": 1,
+      "name": "Cutys",
+      "Toatalmarks": "40",
+      "id": 0.18761604259011344
+    }
+  ]
+}

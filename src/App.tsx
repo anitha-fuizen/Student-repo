@@ -1,25 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import View from './View';
+import Viewitem from './Viewitem'
+import Form from './Form'
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <div className='header'>
+    <div className='header__logo' ><img src='https://zelarsoft.com/wp-content/uploads/2021/10/logo.png'></img></div>
     </div>
+   <BrowserRouter>
+   <div className='navigation'>
+    {/* <Link className='btn' to="View">View</Link> */}
+   
+   </div>
+   <Routes>
+    <Route path='/' element={<View/>}/>
+    <Route path='/View' element={<View/>}/>
+    <Route path='/View/:id' element={<Viewitem/>}></Route>
+    <Route path='/create' element={<Form/>}></Route>
+    <Route path='/update/:id' element={<Form/>}></Route>
+   </Routes>
+  
+   </BrowserRouter>
+   </>
   );
 }
 
